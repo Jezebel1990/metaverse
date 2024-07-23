@@ -2,7 +2,7 @@ import  Navbar  from '../components/Navbar';
 import Explore  from '../sections/Explore';
 
 const Page = () => (
-  <div>
+  <div className="bg-primary-black overflow-hidden">
  <Navbar />
  <Explore />
   </div>
