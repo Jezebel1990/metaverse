@@ -3,6 +3,7 @@ import Explore  from '../sections/Explore';
 import Hero from '../sections/Hero';
 import About from '../sections/About';
 import GetStarted from '../sections/GetStarted';
+import WhatsNew from '../sections/WhatsNew';
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -15,8 +16,11 @@ const Page = () => (
  </div>
  <div className="relative">
 <GetStarted />
+<div className="gradient-04 z-0"/>
+<WhatsNew/>
+</div>
  </div>
-  </div>
+
 );
 
 export default Page; 

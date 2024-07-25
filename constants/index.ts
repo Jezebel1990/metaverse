@@ -45,13 +45,13 @@ export const newFeatures = [
       imgUrl: '/vrpano.svg',
       title: 'Um novo mundo',
       subtitle:
-          'Temos a atualização mais recente com o novo mundo para você experimentar',
+          'Temos a atualização mais recente com o novo mundo para você experimentar.',
     },
     {
       imgUrl: '/headset.svg',
       title: 'Mais realista',
       subtitle:
-          'Na última atualização, seus olhos ficarão estreitos, tornando o mundo mais real do que nunca',
+          'Na última atualização, seus olhos ficarão estreitos, tornando o mundo mais real do que nunca.',
     },
   ];
 
