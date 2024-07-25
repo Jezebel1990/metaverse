@@ -6,7 +6,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 const Feedback = () => (
     <section className={`${styles.paddings}`}>
-      <motion.di
+      <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
@@ -30,7 +30,7 @@ const Feedback = () => (
 <p  className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
 “Com o desenvolvimento da tecnologia atual, o metaverso é muito
  útil para o trabalho de hoje, ou pode ser chamado de web 3.0. usando
-metaverso você pode usá-lo como qualquer coisa”
+metaverso você pode usá-lo como qualquer coisa.”
 </p>
 </motion.div>
 
@@ -55,7 +55,7 @@ className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
 />
 </motion.div>
 </motion.div>
-</motion.di>
+</motion.div>
 </section>
 );
 export default Feedback;
