@@ -5,6 +5,7 @@ import About from '../sections/About';
 import GetStarted from '../sections/GetStarted';
 import WhatsNew from '../sections/WhatsNew';
 import World from '../sections/World';
+import Insights from '../sections/Insights';
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -22,7 +23,8 @@ const Page = () => (
 </div>
 <World />
 <div className="relative">
-
+<Insights />
+<div className="gradient-04 z-0" />
 </div>
  </div>
 
