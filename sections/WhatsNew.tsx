@@ -11,7 +11,7 @@ import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 const WhatsNew = () => (
     <section className={`${styles.paddings} relative z-10`}>
         <motion.div
-         variants={staggerContainer}
+         variants={staggerContainer as any}
          initial="hidden"
          whileInView="show"
          viewport={{ once: false, amount: 0.25 }}

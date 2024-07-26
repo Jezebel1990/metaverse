@@ -15,7 +15,7 @@ const Explore = () => {
    return (
     <section className={`${styles.paddings}`} id="explore">
         <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer as any}
         initial="hidden"
         whileInView="show"
         viewport={{once: false, amount:0.25}}
@@ -23,7 +23,7 @@ const Explore = () => {
         >
         <TypingText title=" | O Mundo"
          textStyles="text-center"/>
-         <TitleText title={<>Escolha um mundo <br className="md:block hidden"/> para explorar </>} textStyles="text-center" />
+         <TitleText title ={<>Escolha um mundo <br className="md:block hidden"/> para explorar </>} textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
             {exploreWorlds.map((world, index) => (
             <ExploreCard

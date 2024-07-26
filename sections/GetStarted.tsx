@@ -11,7 +11,7 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 const GetStarted = () => (
 <section className={`${styles.paddings} relative z-10`}>
 <motion.div
-   variants={staggerContainer}
+   variants={staggerContainer as any}
    initial="hidden"
    whileInView="show"
    viewport={{ once: false, amount: 0.25}}
@@ -38,7 +38,7 @@ const GetStarted = () => (
   {startingFeatures.map((feature, index) => (
     <StartSteps 
     key={feature}
-    number={`${index < 10? '0' : ''} ${index + 1}`}
+    number={index + 1}
     text={feature}
     />
   ))}
@@ -48,3 +48,4 @@ const GetStarted = () => (
 </section>
 );
 export default GetStarted;
+
